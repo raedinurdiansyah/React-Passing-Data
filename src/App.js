@@ -45,7 +45,7 @@ class App extends Component {
 
             </div>
             <div id="welcome" className="container tab-pane fade"> <br />
-              <h1> Halo {this.state.user} </h1>
+              <Welcome id={this.state.user}/>
             </div>
           </div>
 
